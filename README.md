@@ -196,7 +196,7 @@ run().catch(console.error);
 **callback** - Возвращает данные о новом входящем платеже
 
 |Параметр|Тип|Описание|
-|-|-|-|-|
+|-|-|-|
 |amount|number|Количество монет|
 |from_id|number|Айди отправителя|
 |updated_merchant_balance|number|Новый баланс данного мерчанта|
