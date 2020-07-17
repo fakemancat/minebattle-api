@@ -99,6 +99,8 @@ run().catch(console.error);
 
 *- Как минимум один из параметров должен присутствовать.
 
+*- params.avatar обязательно должен быть .png
+
 Пример:
 ```js
 async function run() {
@@ -198,7 +200,7 @@ run().catch(console.error);
 |amount|number|Количество монет|
 |from_id|number|Айди отправителя|
 |updated_merchant_balance|number|Новый баланс данного мерчанта|
-|updated_user_balance|number|Новый баланс отправителя
+|updated_user_balance|number|Новый баланс отправителя|
 
 Пример:
 ```js
