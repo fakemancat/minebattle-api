@@ -148,7 +148,7 @@ export class MineBattle {
             app.post(path, (req, res) => {
                 res.send('ok');
 
-                if (req.body?.transfer_accept) {
+                if (req.body.transfer_accept) {
                     const {
                         amount,
                         from_id,

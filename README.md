@@ -9,7 +9,6 @@ NodeJS библиотека для работы с API сервиса "Битв�
 <a href="https://www.npmjs.com/package/minebattle-api"><img src="https://img.shields.io/npm/dt/minebattle-api.svg?style=for-the-badge" alt="Downloads"></a>
 </p>
 
----
 ## Установка
 
 *yarn*
@@ -22,7 +21,6 @@ yarn add minebattle-api
 npm i -S minebattle-api
 ```
 
----
 ## Подключение
 ```js
 const { MineBattle } = require('minebattle-api');
@@ -30,14 +28,13 @@ const { MineBattle } = require('minebattle-api');
 const mb = new MineBattle(token);
 ```
 
----
 ## Методы API
 **call** - Универсальный метод отправки запроса
 
 |Параметр|Тип|Обязателен|Описание|
 |-|-|-|-|
 |methodName|string|Да|Имя метода|
-|param|object|Нет|Параметры метода|
+|params|object|Нет|Параметры метода|
 
 Пример:
 ```js
@@ -173,7 +170,6 @@ async function run() {
 run().catch(console.error);
 ```
 
----
 ## Получение платежей
 
 Получение новых платежей происходит по методу Webhook. Перед использованием этого метода, обязательно нужно зарегистрировать свой хук, с помощью метода **setWebhook**
