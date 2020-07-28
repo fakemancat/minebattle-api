@@ -15,5 +15,10 @@
         "allowJs": true,
         "alwaysStrict": true,
         "declaration": true
-    }
+    },
+    "exclude": [
+        "./test/*",
+        "./lib/**/*",
+        "./rollup.config.js"
+    ]
 }
